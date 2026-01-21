@@ -1,38 +1,34 @@
-@font-face{
-src: url(fonts/Roboto-Regular.ttf);
-font-family: 'Roboto', sans-serif;
-}
 h1{
-font-family: 'Roboto', sans-serif;
+font-family: georgia;
 font-size: 35px;
 }
 h2{
-font-family: 'Roboto', sans-serif;
-font-size: 30px;
+font-family: georgia;
+font-size: 35px;
 }
 h3{
-font-family: 'Roboto', sans-serif;
-font-size: 25px;
+font-family: georgia;
+font-size: 35px;
 }
 p{
-font-family: "courier new";
+font-family: "arial";
 font-size: 15px;
 line-height: 20px;
 }
 href{
-font-family: "courier new";
+font-family: "arial";
 font-size: 15px;
 }
 li{
-font-family: "courier new";
+font-family: "arial";
 font-size: 15px;
 }
 nav{
-font-family: "courier new";
+font-family: "arial";
 font-size: 25px:
 }
 footer{
-font-family: "courier new";
+font-family: "arial";
 font-size: 12px;
 }
 body{
