@@ -1,10 +1,10 @@
 @font-face{
 src: url(fonts/Roboto-VariableFont_wdth,wght.ttf);
-font-family: "Roboto-Normal";
+font-family: Roboto;
 }
 
 h1{
-font-family: "Roboto-Normal", verdana, arial;
+font-family: Roboto, verdana, arial;
 font-size: 35px;
 }
 h2{
