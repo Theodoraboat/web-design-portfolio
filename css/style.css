@@ -1,7 +1,7 @@
 Color System: #F9DBBD will serve as my background, #A53860 will be used for bigger text (headings), and #450920 will be used for smaller text (navigation, paragraph, footer).
 
 body {
-background: #F9DBBD; 
+background-color: #F9DBBD; 
 color: #450920};
 margin: 10px;
 }
