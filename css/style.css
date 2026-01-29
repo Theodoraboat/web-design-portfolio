@@ -1,4 +1,9 @@
-Color System: #F9DBBD will serve as my background, #A53860 will be used for bigger text (headings), and #450920 will be used for smaller text (navigation, paragraph, footer).
+@media (min-width: 390px) {
+.container {
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
 
 body {
 background-color: #F9DBBD; 
@@ -52,5 +57,6 @@ font-size: 15px;
 font-family: Arial;
 }
 img {
+max-width: 100%; height: auto;
 inline-size: 300px;
 }
