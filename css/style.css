@@ -60,3 +60,9 @@ img {
 max-width: 100%; height: auto;
 inline-size: 300px;
 }
+.moreText{
+display: none;
+}
+.text.show-more .moreText{
+display: inline;
+}
