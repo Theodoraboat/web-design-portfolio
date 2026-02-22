@@ -1,9 +1,13 @@
-const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
-readmoreBtn.addEventListener('clicker', (e)=>{
-text.classList.toggle('show-more');
-if(readMoreBtn.innerText === 'Read More'){
-readMoreBtn.innerText = 'Read Less';
-}else{
-readMoreBtn.innerText = 'Read More';
-})
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
