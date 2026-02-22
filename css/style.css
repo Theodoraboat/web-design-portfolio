@@ -1,4 +1,4 @@
-@media (min-width: 100px) {
+@media (min-width: 390px) {
 .container {
 max-width: 1200px;
 margin-left: auto;
@@ -60,9 +60,23 @@ img {
 max-width: 100%; height: auto;
 inline-size: 300px;
 }
-.moreText{
-display: none;
+.collapsible {
+background-color: #FFFFFF;
+color: #A53860;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 1rem:
 }
-.text.show-more .moreText{
-display: inline;
+.active, .collapsible:hover {
+background-color: #A53860;
+}
+.content {
+padding: 1rem;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
 }
