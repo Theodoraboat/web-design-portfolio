@@ -5,7 +5,7 @@ margin-left: auto;
 margin-right: auto;
 }
 body {
-background-color: #F9DBBD; 
+background-color: #f8ebee; 
 margin: 10px;
 }
 h1 {
@@ -13,47 +13,53 @@ color: #A53860;
 font-size: 1.95rem; 
 line-height: 1.55; 
 letter-spacing: 0.02em; 
-font-family: Verdana;
+font-family: "Times New Roman";
+font-weight: bold;
+font-style: italic;
 }
 h2 {
 color: #A53860; 
 font-size: 1.56rem; 
 line-height: 1.55; 
 letter-spacing: 0.02em; 
-font-family: Verdana;
+font-family: "Times New Roman";
+font-weight: bold;
+font-style: italic;
 }
 h3 {
 color: #A53860; 
 font-size: 1.4rem; 
 line-height: 1.6; 
 letter-spacing: 0.025em; 
-font-family: Verdana;
+font-family: "Times New Roman";
+font-weight: bold;
+font-style: italic;
 }
 nav {
-color: #450920; 
+color: #792745; 
 font-size: 0.95rem; 
 line-height: 1.65; 
 letter-spacing: 0.03em; 
-font-family: Arial;
+font-family: "Times New Roman";
 }
 p {
-color: #450920;
+color: #792745;
 font-size: 1rem; 
 line-height: 1.6; 
 letter-spacing: 0.03em; 
-font-family: Arial;
+font-family: "Times New Roman";
 }
 li {
-color: #450920; 
+color: #792745; 
 font-size: 1rem; 
 line-height: 1.6; 
 letter-spacing: 0.03em; 
-font-family: Arial;
+font-family: "Times New Roman";
 }
 footer {
-color: #450920; 
+color: #792745; 
 font-size: 15px; 
-font-family: Arial;
+font-family: "Times New Roman";
 }
 img {
 max-width: 100%; height: auto;
